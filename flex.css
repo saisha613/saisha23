@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+}
+#flex-demo{
+    background-color: rgb(255, 255, 255);
+
+}
+.flex-container{
+    height: 400;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.flex-item{
+    color: aqua;
+    background-color: brown;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}

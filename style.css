@@ -1,0 +1,21 @@
+h2{
+    color: blue;
+}
+label{
+    color: red;
+}
+caption{
+    color: rgb(95, 42, 165);
+}
+button{
+    color: blueviolet;
+}
+label{
+    font-size: 40px;
+}
+p{
+    color: darkblue;
+}
+h1{
+    color: brown;
+}
