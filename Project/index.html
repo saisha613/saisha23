@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Marine Life</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <div class="navleft">
-            <h1 class="title">Mystries of Marine life</h1>
+            <h1 class="title">Marine life</h1>
         </div>
         <div class="navright">
+            <a href="#introduction">Introduction</a>
+            <a href="#unexplored">Unexplored Ocean</a>
+            <a href="#abilities">Abilities of Deep-Sea Creatures</a>
+            <a href="#threats">Threats</a>
+            <a href="#conservation">Conservation</a>
+            <a href="#gallery">Gallery</a>
             <img class="logo" src="logo.png" alt="image" width="100px">
         </div>
     </nav>
 
     <main>
-        <div class="container">
-           
+        <div id="introduction" class="container">
             <div class="left">
                 <h1 class="intro"> Introduction </h1>
                 <p class="para">Marine life refers to the diverse plants, 
@@ -35,31 +40,157 @@
                     Exploring the ocean helps us understand the beauty,
                     diversity, and mysteries hidden beneath its surface.
                 </p>
-
             </div>
-             <div class="right">
+            <div class="right">
                 <img src="image1.jpg" width="300px">
             </div>
-            
-            
         </div>
-        <hr>
-        <div class="container1">
 
-             <div class="right1">
+        <hr>
+
+        <div id="unexplored" class="container1">
+            <div class="right1">
                 <img src="image2.webp" width="500px">
             </div>
-           
             <div class="left">
                 <h1 class="intro"> Unexplored ocean </h1>
-                <p class="para">Although the oceans cover about 71% of Earth's surface, scientists estimate that only around 20% of the ocean has been explored, mapped, or observed, while more than 80% remains unexplored. The deep ocean is one of the most challenging places to study because of its extreme pressure, freezing temperatures, and complete darkness. As a result, many parts of the ocean have never been seen by humans. Every expedition into the deep sea reveals fascinating discoveries, including new marine species, underwater mountains, hydrothermal vents, and unique ecosystem.
-
+                <p class="para">Although the oceans cover about 71% of Earth's surface,
+                     scientists estimate that only around 20% of the ocean has been 
+                     explored, mapped, or observed, while more than 80% remains 
+                     unexplored. The deep ocean is one of the most challenging 
+                     places to study because of its extreme pressure, freezing 
+                     temperatures, and complete darkness. As a result, many parts of 
+                     the ocean have never been seen by humans. Every expedition into 
+                     the deep sea reveals fascinating discoveries, including new marine
+                      species, underwater mountains, hydrothermal vents, and unique 
+                      ecosystem.
                 </p>
-
             </div>
-            
-            
-            
         </div>
-    </main> 
+
+        <hr>
+
+        <div id="abilities" class="container">
+            <div class="left">
+                <h1 class="intro"> Extraordinary Abilities </h1>
+                <p class="para">Many marine creatures have evolved fascinating adaptations to survive in harsh underwater environments:</p>
+                <ul class="marine-list">
+                    <li><strong>Bioluminescence:</strong> Deep-sea creatures like the Anglerfish produce their own light to attract prey in pitch darkness.</li>
+                    <li><strong>Regeneration:</strong> Starfish can completely regrow lost arms, and some can even grow a whole new body from a single arm.</li>
+                    <li><strong>Camouflage Mastered:</strong> The Mimic Octopus can change its shape, color, and texture to impersonate predatory sea snakes and lionfish.</li>
+                </ul>
+            </div>
+            <div class="right">
+                <img src="extraord.avif" width="350px">
+                <img src="seacr.jpg" width="350px">
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="threats" class="container1">
+            <div class="right1">
+                <img src="trash.jpg" width="500px">
+            </div>
+            <div class="left">
+                <h1 class="intro"> Threats to Marine Life </h1>
+                <p class="para">Human activities are placing unprecedented pressure on fragile marine ecosystems across the globe:</p>
+                <ul class="marine-list">
+                    <li><strong>Plastic Pollution:</strong> Millions of tons of plastic trash enter the ocean annually, harming marine wildlife.</li>
+                    <li><strong>Overfishing:</strong> Commercial fleets take fish faster than stocks can replenish, disrupting natural food webs.</li>
+                    <li><strong>Climate Change:</strong> Rising ocean temperatures cause widespread coral bleaching and alter ocean chemistry.</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="conservation" class="container">
+            <div class="left">
+                <h1 class="intro"> Conservation Efforts </h1>
+                <p class="para">Protecting our oceans requires global cooperation and immediate structural actions:</p>
+                <ul class="marine-list">
+                    <li>Establishing expansive Marine Protected Areas (MPAs) where fishing and drilling are restricted.</li>
+                    <li>Enforcing stricter international laws against illegal fishing and wildlife tracking.</li>
+                    <li>Supporting community-led beach cleanups and transitioning to sustainable alternatives to single-use plastics.</li>
+                </ul>
+            </div>
+            <div class="right">
+                <img src="conservation.webp" width="500px">
+            </div>
+        </div>
+
+        <hr>
+        <div id="gallery" class="gallery-section">
+            <h1 class="intro" style="text-align: center; padding-left: 0;">Marine Gallery</h1>
+            <div class="gallery-grid">
+                <img src="image3.webp" alt="Marine Life 1" width="500px">
+                <img src="img.jpg" alt="Marine Life 2" width="500px">
+                <img src="img1.jpg" alt="Marine Life 3" width="500px">
+                <img src="img2.jpg" alt="Marine Life 4" width="500px">
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="footer-text">&copy; 2026 Marine Life. All Rights Reserved.</p>
+    </footer>
+    <hr>
+    <div id="feedback" class="container">
+        <div class="left">
+            <h1 class="intro">Share Your Feedback</h1>
+            <p class="para">We would love to hear your thoughts on our marine life platform and how we can improve our conservation message.</p>
+                
+            <form action="./Feedback.html" method="POST">
+                 <div>
+                    <label for="username"><strong>Full Name:</strong></label><br>
+                    <input type="text" id="username" name="username" placeholder="Enter your name" required>
+                </div><br>
+                <div>
+                    <label for="useremail"><strong>Email Address:</strong></label><br>
+                    <input type="email" id="useremail" name="useremail" placeholder="Enter your email" required>
+                </div><br>
+                <div>
+                    <label for="interest"><strong>What interests you most?</strong></label><br>
+                    <select id="interest" name="interest">
+                        <option value="deepsea">Deep-Sea Exploration</option>
+                        <option value="abilities">Creature Adaptations</option>
+                        <option value="threats">Environmental Threats</option>
+                        <option value="conservation">Conservation Strategies</option>
+                        </select>
+                </div><br>
+
+                   
+                    <div>
+                        <label><strong>Did you find this site helpful?</strong></label><br>
+                        <input type="radio" id="yes" name="helpful" value="yes" checked>
+                        <label for="yes">Yes, very informative</label><br>
+                        <input type="radio" id="no" name="helpful" value="no">
+                        <label for="no">No, needs more details</label>
+                    </div>
+                    <br>
+
+                   
+                    <div>
+                        <label for="message"><strong>Your Comments or Suggestions:</strong></label><br>
+                        <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your feedback here..." required></textarea>
+                    </div>
+                    <br>
+
+                    
+                    <div>
+                        <button>
+                            <a href="./Feedback.html">SUBMIT FEEDBACK</a>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+      
+     <div class="right">
+                <img src="wee.jpg" alt="Feedback Section Graphic" width="300px">
+            </div>
+        </div>
+</body>
 </html>
